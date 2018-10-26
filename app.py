@@ -54,8 +54,7 @@ def get_index_matrix(sentence):
 
 app = Flask(__name__)
 
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+CORS(app)
 
 global model,graph
 model,graph = init()
