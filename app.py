@@ -80,10 +80,5 @@ def predict():
         action,score = get_prediction(query)
         return flask.jsonify({'Score': score,'Action': action})
 
-
-    
-    
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port = port, debug = True)
