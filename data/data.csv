@@ -1,0 +1,517 @@
+,Query,Action
+0,what is the price for the event,get_event_fees
+1,due to unavoidable reasons i unable to attend the event will i get a refund,is_refundable
+2,when is the deadline to make the payment,get_registration_date
+3,how much does it cost to register for the event,get_event_fees
+4,do you have any online payment options for the event,get_payment_method
+5,when is the last day for payments,get_registration_date
+6,when is the last day to pay,get_event_fees
+7,can i pay through paytm or upi,get_payment_method
+8,can i pay for a ticket at the venue,get_payment_method
+9,what are the prizes up for grabs,get_prizes
+10,can i cancel my registration after paying the fees,is_refundable
+11,are there any benefits or discounts,get_discounts
+12,can i get a refund if i ca make it,is_refundable
+13,do you refund the payment,get_payment_method
+14,can i pay using debit cards what if my credit card is not international,get_payment_method
+15,which debit cards can be used,get_payment_method
+16,hey,greet
+17,what is the refund policy,is_refundable
+18,what are the various payment methods,get_payment_method
+19,can i have a refund of my money,is_refundable
+20,can i get the money back,is_refundable
+21,can i pay later for the event,get_payment_method
+22,is on spot registration available,get_payment_method
+23,what all modes of payment are available,get_payment_method
+24,what is the schedule for date,show_schedule
+25,how long is the lunch break,show_schedule
+26,when is the event happening,get_event_date
+27,what are the timings for,get_event_time
+28,what is happening at on august,show_schedule
+29,will there be breaks in between technical session on day,show_schedule
+30,what is happening on the second day,show_schedule
+31,at what time does the event end,get_event_time
+32,what events are scheduled on august between to,show_schedule
+33,major events on the first day,show_schedule
+34,when does the event end,get_event_date
+35,what is going to happen at on august,show_schedule
+36,when does the event start,get_event_date
+37,will be get accomodation,show_accomodation
+38,whats happening on july around,show_schedule
+39,i like to get the iteanery,show_schedule
+40,what is the schedule of the event,show_schedule
+41,what are the events on date or day,show_schedule
+42,what events are going to happen,get_event_date
+43,can we come a bit late,get_event_time
+44,where can i find the itinerary,show_schedule
+45,is there any break,show_schedule
+46,who are the speakers for date,show_speakers
+47,is there a provision available to meet the speakers after the event,speaker_details_extra
+48,who is the speaker,show_speakers
+49,where are the speakers from,show_speakers
+50,can i get the email of all the speakers,show_speakers
+51,how many speakers are coming and will there be a q and a,show_speakers
+52,how many speakers are going to speak in the event,speaker_details_extra
+53,how many speakers are there,speaker_details_extra
+54,could i know more about the ai speakers,speaker_details_extra
+55,i like to know about the speakers,speaker_details_extra
+56,more about the speakers,speaker_details_extra
+57,is there a question and answer session with the speakers,speaker_details_extra
+58,who are the speakers at the event,show_speakers
+59,who all are coming for panel discussions on what days are the best speakers coming,show_speakers
+60,could i get in touch with a speaker,speaker_details_extra
+61,where are the speakers from,speaker_details_extra
+62,can i have a list of the speakers,show_speakers
+63,who are speaking in this event,show_speakers
+64,who all are going to speak in the events,show_speakers
+65,what speakers are coming in the event,show_speakers
+66,can i have a personal chat with them,speaker_details_extra
+67,where are they going to stay,show_accomodation
+68,what are the arrangements for food,show_food_arrangements
+69,do you provide unsweetened drinks for diabetics,show_food_arrangements
+70,is food provided for all the days till the event ends,show_food_arrangements
+71,is food complimentary,show_food_arrangements
+72,does the registration cost involve food,show_food_arrangements
+73,whats the scene with meals,show_food_arrangements
+74,is the food unlimited,show_food_arrangements
+75,when is lunch going to be served today,show_schedule
+76,is food provided,show_food_arrangements
+77,any payments related to food,show_food_arrangements
+78,is food provided three times a day,show_schedule
+79,will food and snacks be provided,show_food_arrangements
+80,do we pay for our own food how many meals are you providing,show_food_arrangements
+81,is the food complimentary,show_food_arrangements
+82,will food be provided,show_food_arrangements
+83,are we going to have lunch breaks during the event,show_schedule
+84,can we bring in food from outside,show_food_arrangements
+85,what kind of food will be provided,show_food_arrangements
+86,will stay be arranged,show_accomodation
+87,how far is the college from the hotel i will be staying at,show_accomodation
+88,how far away from the event is the accomodation arranged,show_accomodation
+89,is accommodation only for participants or for their family too,show_accomodation
+90,will you be arranging accommodation,show_accomodation
+91,does the accommodation have ac,show_accomodation
+92,how far is the accommodation location from the event location,get_distance
+93,do i have to pay separately for accommodation,show_accomodation
+94,how do i commute to the venue from my accommodation,show_accomodation
+95,i like to know the details for accommodation,show_accomodation
+96,detailed information regarding accommodation,show_accomodation
+97,will you be booking tickets for us if we pay that money,show_accomodation
+98,will accommodation be arranged for participants,show_accomodation
+99,do we pay for our own accommodation how much would it cost,show_accomodation
+100,is the accommodation provided,show_accomodation
+101,what the cost of accomodation,show_accomodation
+102,whats the scene with accommodation,show_accomodation
+103,are the meals going to be provided along with accommodation,show_accomodation
+104,is the accommodation provided by you,show_accomodation
+105,can i have the details of the stay,show_accomodation
+106,is the complimentary food given,show_food_arrangements
+107,is warm water available,show_accomodation
+108,is ac available,show_accomodation
+109,any pictures of the rooms,show_accomodation
+110,any cheaper acco available,show_accomodation
+111,when is event,get_event_date
+112,who them speakers,show_speakers
+113,will i get discounts on registrations,get_discounts
+114,what is the damage,get_event_fees
+115,how far is it,get_distance
+116,when the party,show_schedule
+117,where the party,get_distance
+118,who the homies on the stage,show_speakers
+119,i want my money back,is_refundable
+120,by when can i get my money back,is_refundable
+121,what is the process for refund,is_refundable
+122,what are the prizes,get_prizes
+123,what am i gon na take home,get_prizes
+124,how much should i spend on food,show_food_arrangements
+125,how many times will we get food,show_food_arrangements
+126,where will the guests stay,show_accomodation
+127,who are the peopel speaking,show_speakers
+128,will there be a place to stay,show_accomodation
+129,wheresthe cultural night at,get_location
+130,when is the last date to register,get_registration_date
+131,by when can i register,get_registration_date
+132,when is the vellore tour,get_event_time
+133,will i get tshirts,get_prizes
+134,from where will the food come,show_food_arrangements
+135,what are the hotels available,show_accomodation
+136,are the speakers qualified,show_speakers
+137,any early bird offers,get_discounts
+138,what will be the menu,show_food_arrangements
+139,i want to know how much the food costs,show_food_arrangements
+140,how can i pay,get_payment_method
+141,will i get stickers,get_prizes
+142,how many prizes are there,get_prizes
+143,can i talk to the speakers after the event,speaker_details_extra
+144,tell me where the event is happening,get_location
+145,shut up and take my money,get_payment_method
+146,who gon na be talking at the show,show_speakers
+147,are the number of delegate positions limited,get_registration_date
+148,how do i get to the venue,get_distance
+149,can i get a map,get_location
+150,what about food,show_food_arrangements
+151,can i see the schedule,show_schedule
+152,what for food,show_food_arrangements
+153,i want to know what the prizes are,get_prizes
+154,how much,get_event_fees
+155,let me know about the awards,get_prizes
+156,tell me when the event is beginning,get_event_date
+157,when does deep learning start,get_registration_date
+158,where is this happening,get_location
+159,how do you want me to pay,get_payment_method
+160,when should i sign up,get_registration_date
+161,fill me in about the speakers,speaker_details_extra
+162,what are the conditions to get a discount on the registration fees,get_discounts
+163,what is the prze distribution,get_prizes
+164,how much should i pay for attending the event,get_event_fees
+165,how much does this cost,get_event_fees
+166,how much money should i pay to attend this,get_event_fees
+167,how much would it cost me to attend this event,get_event_fees
+168,if i am not available on those dates later will i get my money back,is_refundable
+169,can i get my money back if i decide to cancel later,is_refundable
+170,will i get refunded if i cancel later,is_refundable
+171,are the event fees refundable,is_refundable
+172,if i choose to drop out later will i get my money back,is_refundable
+173,can i get my money returned if i ca come,is_refundable
+174,are there any discounts i can avail on the registration fee,get_discounts
+175,any discounts available,get_discounts
+176,are there any types of fee reductions we can avail,get_discounts
+177,can i cancel and expect a refund,is_refundable
+178,are there any discounts applicable for this event,get_discounts
+179,where do i stay,show_accomodation
+180,how do i pay,get_payment_method
+181,i want to cancel my delegation,is_refundable
+182,what are the last dates for registrations,get_registration_date
+183,when do registrations begin,get_registration_date
+184,when can i apply for this event,get_registration_date
+185,are there any prizes for this,get_prizes
+186,where am i traveling,get_location
+187,what is my destination,get_location
+188,how far is my destination,get_distance
+189,what the entry fee,get_event_fees
+190,will i get my money back if i cancel,is_refundable
+191,it too costly is there anything i could do to reduce the amount,get_discounts
+192,when is the last date for registration,get_registration_date
+193,how can i pay,get_payment_method
+194,will i win anything,get_prizes
+195,when should i come,get_event_time
+196,can i stay at my hostel,show_accomodation
+197,can i increase my network,show_speakers
+198,where is sandeep from,speaker_details_extra
+199,what if i get hungry,show_food_arrangements
+200,where is it,get_distance
+201,what are the timings,show_schedule
+202,where is it tho,get_location
+203,can i get some discounts for the conference,get_discounts
+204,what are some of the options where i can stay around,show_accomodation
+205,what are some places to stay,show_accomodation
+206,can i get a refund,is_refundable
+207,show some places to eat around,show_food_arrangements
+208,i am hungry,show_food_arrangements
+209,best places to get food,show_food_arrangements
+210,how much does the food cost,show_food_arrangements
+211,what are the prizes,get_prizes
+212,when does this start,get_event_time
+213,can i speak to the speakers after the event,speaker_details_extra
+214,can i pay lesser,get_discounts
+215,what up with the stay for the speakers,show_accomodation
+216,tell me how far is this event,get_distance
+217,how am i supposed to pay for this,get_payment_method
+218,location of the venue,get_location
+219,registration fee,get_event_fees
+220,what are my accommodations like,show_accomodation
+221,what is the refund policy,is_refundable
+222,are the rooms,show_accomodation
+223,where is vellore exactly,get_location
+224,what is the total amount i need to pay,get_event_fees
+225,how much amount of the registration fees will be refunded,is_refundable
+226,are there any discount codes,get_discounts
+227,any discount coupons,get_discounts
+228,when is the event starting,get_registration_date
+229,can i pay by cash,get_payment_method
+230,what is the reward for place,get_prizes
+231,when does the event end,get_event_time
+232,will i be provided accommodation,show_accomodation
+233,is there a speaker from google,show_speakers
+234,can i get more details of the event,speaker_details_extra
+235,what will be provided for lunch,show_food_arrangements
+236,how much for dinner,show_food_arrangements
+237,how far is the event from chennai,get_distance
+238,at what time will snacks be served,show_schedule
+239,when s the last day of the event,get_event_date
+240,what will i get if i win the event,get_prizes
+241,do i get accommodation if i join itc,show_accomodation
+242,where is the event,get_location
+243,who else is going to be there,show_speakers
+244,when is the itc starting,get_event_time
+245,hey,greet
+246,hello,greet
+247,hi,greet
+248,yo,greet
+249,heyyy,greet
+250,heyy,greet
+251,heyyyyy,greet
+252,hiii,greet
+253,who is in charge,greet
+254,who is,show_contact_info
+255,whom can i contact,show_contact_info
+256,hello what up,greet
+257,what can you do,about_chatbot
+258,what are you capable of,about_chatbot
+259,what else can you do,about_chatbot
+260,who are you,about_chatbot
+261,who are you,about_chatbot
+262,what is your purpose,about_chatbot
+263,hello friend,greet
+264,hello there,greet
+265,hey,greet
+266,hello,greet
+267,hi,greet
+268,yo,greet
+269,heyyy,greet
+270,heyy,greet
+271,heyyyyy,greet
+272,hiii,greet
+273,who is in charge,greet
+274,who is,show_contact_info
+275,whom can i contact,show_contact_info
+276,hello what up,greet
+277,what can you do,about_chatbot
+278,what are you capable of,about_chatbot
+279,what else can you do,about_chatbot
+280,who are you,about_chatbot
+281,who are you,about_chatbot
+282,what is your purpose,about_chatbot
+283,hello friend,greet
+284,hello there,greet
+285,what time is this,get_event_time
+286,when is this,get_event_date
+287,do i get discounts,get_discounts
+288,what will i win,get_prizes
+289,what is up with the food,show_food_arrangements
+290,what is happening on day,show_schedule
+291,will spekaers come,show_speakers
+292,what are you,about_chatbot
+293,why are you,about_chatbot
+294,tell me more about day x,show_schedule
+295,who all are coming,show_speakers
+296,where do i stay,show_accomodation
+297,can you help me get a room,show_accomodation
+298,what if i get hungry,show_food_arrangements
+299,will you provide us with food,show_food_arrangements
+300,i broke af,get_discounts
+301,tell me more about the speakers,speaker_details_extra
+302,who are the speakers,show_speakers
+303,organiser details,show_contact_info
+304,tell me what session is next,show_schedule
+305,where is the accomodation,show_accomodation
+306,whom can i contact,show_contact_info
+307,who should i approach,show_contact_info
+308,who is in charge,show_contact_info
+309,who is the organizer,show_contact_info
+310,who are the organizers,show_contact_info
+311,who is responsible for this event,show_contact_info
+312,if anything happens whom can i connect,show_contact_info
+313,what do you do,about_chatbot
+314,how far is the event,get_location
+315,where is this happening,get_distance
+316,what are your capabilities,about_chatbot
+317,who made you,about_chatbot
+318,hello my friend,greet
+319,when is the date for registering,get_registration_date
+320,i want entry at a lesser price,get_discounts
+321,what is the last date for registering,get_registration_date
+322,when is the event happening,get_event_date
+323,what time is the event,get_event_time
+324,event timings,get_event_time
+325,when is the event,get_event_date
+326,where can i stay,show_accomodation
+327,where can the guests stay,show_accomodation
+328,show me the schedule,show_schedule
+329,what is the schedule,show_schedule
+330,who is going to come,show_speakers
+331,hello my friend,greet
+332,i want my money back please,is_refundable
+333,where are the guests staying,show_accomodation
+334,when does the event start,get_event_time
+335,when does the event end,get_event_time
+336,what date is the event,get_event_date
+337,let me know when the event starts,get_event_time
+338,tell me the registration fees,get_event_fees
+339,how much does it cost to register,get_event_fees
+340,i want to know the cost of registration,get_event_fees
+341,what are the registration charges,get_event_fees
+342,cost for registration,get_event_fees
+343,charges for registration,get_event_fees
+344,cost of registration,get_event_fees
+345,hey what is the cost for signing up,get_event_fees
+346,how much is the amount for signing up,get_event_fees
+347,i want to come for the event so how much does this cost,get_event_fees
+348,what is the registration cost,get_event_fees
+349,what are the charges for signing up,get_event_fees
+350,what is the cost for registering,get_event_fees
+351,how much should i pay for signing up,get_event_fees
+352,what is the registration fees,get_event_fees
+353,how much is the registration fees,get_event_fees
+354,tell me the cost of signing up,get_event_fees
+355,i want to know the price for the entry ticket,get_event_fees
+356,how much shall i pay to enter this event,get_event_fees
+357,what is the entry fee for this event,get_event_fees
+358,is there any entry fee,get_event_fees
+359,cost for entering this event,get_event_fees
+360,any registration cost for this,get_event_fees
+361,any entry fee for this,get_event_fees
+362,what is the entry fee,get_event_fees
+363,what is the ticket price,get_event_fees
+364,i want to know the charges for entry,get_event_fees
+365,tell me the entry cost,get_event_fees
+366,will i get my money back if i cancel,is_refundable
+367,can i have my money back,is_refundable
+368,what is the refund policy,is_refundable
+369,any refund policy,is_refundable
+370,will you give me back my money,is_refundable
+371,is there any way to get back my money,is_refundable
+372,how can i get my money back,is_refundable
+373,give me my money,is_refundable
+374,i need a refund,is_refundable
+375,i want a refund,is_refundable
+376,please give me my money back,is_refundable
+377,what is up with the refund policy,is_refundable
+378,what if i want my money back,is_refundable
+379,how do i get back my money,is_refundable
+380,it is my money please give it back,is_refundable
+381,im broke give me my money,is_refundable
+382,process to get back my money,is_refundable
+383,how can i get a refund,is_refundable
+384,is there a speaker from google,show_speakers
+385,tell me the registration date,get_event_date
+386,when is the event,get_event_date
+387,what date is it,get_event_date
+388,when does it begin,get_event_date
+389,when is it,get_event_date
+390,i want to know the dates,get_event_date
+391,what are the dates,get_event_date
+392,event dates,get_event_date
+393,date of begin,get_event_date
+394,when is it starting,get_event_date
+395,tell me when does this start,get_event_date
+396,when does it end,get_event_date
+397,date of start,get_event_date
+398,dates,get_event_date
+399,i wan na know the event dates,get_event_date
+400,tell me the dates of this event,get_event_date
+401,how many days is it,get_event_date
+402,number of days,get_event_date
+403,how many days is it,get_event_date
+404,date of this event,get_event_date
+405,date,get_event_date
+406,when is this happening,get_event_date
+407,what day is it happening,get_event_date
+408,what day,get_event_date
+409,what days,get_event_date
+410,when,get_event_date
+411,days of execution,get_event_date
+412,event days,get_event_date
+413,please tell me the dates of the event,get_event_date
+414,what are the dates of this event,get_event_date
+415,this event is happening on which days,get_event_date
+416,this event is happening on which dates,get_event_date
+417,date of registration,get_registration_date
+418,when should i register,get_registration_date
+419,date for signing up,get_registration_date
+420,last day to sign up,get_registration_date
+421,what date does the registration begin,get_registration_date
+422,date at which the registration starts,get_registration_date
+423,last day to register,get_registration_date
+424,last day for paying,get_registration_date
+425,last day to get entry,get_registration_date
+426,when is the registration deadline,get_registration_date
+427,by when can i register,get_registration_date
+428,by when should i sign up,get_registration_date
+429,registration deadline,get_registration_date
+430,when does the registration start,get_registration_date
+431,when should i pay,get_registration_date
+432,has the registration started,get_registration_date
+433,when will the registration start,get_registration_date
+434,when can i pay,get_registration_date
+435,by when can i pay,get_registration_date
+436,deadline to pay,get_registration_date
+437,final date for registering,get_registration_date
+438,last date for applying,get_registration_date
+439,last date for signing up,get_registration_date
+440,final deadline to apply,get_registration_date
+441,when can i apply,get_registration_date
+442,by when can i apply,get_registration_date
+443,by when should i apply,get_registration_date
+444,does the event accept registrations,get_registration_date
+445,how should i pay,get_payment_method
+446,how can i pay,get_payment_method
+447,methods for paying,get_payment_method
+448,do you accept credit card,get_payment_method
+449,online payment portal,get_payment_method
+450,do you accept cash,get_payment_method
+451,how can i pay for this,get_payment_method
+452,how should i pay for entry,get_payment_method
+453,show me the payment methods,get_payment_method
+454,i want to know the payment methods,get_payment_method
+455,i want to pay by card,get_payment_method
+456,i want to pay by cash,get_payment_method
+457,i want to pay by credit card,get_payment_method
+458,will i be able to pay by card,get_payment_method
+459,do you accept paytm,get_payment_method
+460,do you accept tez,get_payment_method
+461,can i pay through tez,get_payment_method
+462,tell me the methods of paymenth,get_payment_method
+463,how do you accept registrations,get_payment_method
+464,what are the payment methods,get_payment_method
+465,what are the ways i can pay,get_payment_method
+466,take my money,get_payment_method
+467,i want to sign up with cash,get_payment_method
+468,what are the prizes,get_prizes
+469,what are the awards,get_prizes
+470,what will the winners take home,get_prizes
+471,any goodies,get_prizes
+472,any stickers,get_prizes
+473,any swags,get_prizes
+474,what are the goodies we get,get_prizes
+475,winning prize,get_prizes
+476,what is the winning prize,get_prizes
+477,show me the discounts,get_discounts
+478,give me entry for lesser price,get_discounts
+479,i want a discount,get_discounts
+480,can i pay lesser,get_discounts
+481,how do i get a discount,get_discounts
+482,i want to avail a discount,get_discounts
+483,give me a discount,get_discounts
+484,who is speaking at this event,show_speakers
+485,any guests,show_speakers
+486,who are the speakers,show_speakers
+487,where are the speakers coming from,show_speakers
+488,what are the names of the speakers,show_speakers
+489,tell me about the speakers,show_speakers
+490,who is giving a talk,show_speakers
+491,any special guests,show_speakers
+492,who is speaking on day,show_speakers
+493,who is coming,show_speakers
+494,anyone from google,show_speakers
+495,tell me about the speakers,show_speakers
+496,who are giving talks for the show,show_speakers
+497,who is talking,show_speakers
+498,show me the speakers,show_speakers
+499,i want a list of all speakers,show_speakers
+500,will i get food,show_food_arrangements
+501,i want food,show_food_arrangements
+502,what is up with the food,show_food_arrangements
+503,show me the arrangements for food,show_food_arrangements
+504,what arrangements have been made for food,show_food_arrangements
+505,is there food from dominos,show_food_arrangements
+506,where is the food from,show_food_arrangements
+507,what meals will be served,show_food_arrangements
+508,how do i get in touch with the organizers,show_contact_info
+509,who can i contact,show_contact_info
+510,show the contact details,show_contact_info
+511,i want to connect to the organizers,show_contact_info
+512,whom can i approach,show_contact_info
+513,send me a contact number,show_contact_info
+514,who organized this,show_contact_info
+515,who are the organizers,show_contact_info

@@ -1,0 +1,1106 @@
+,Unnamed: 0,Query,Action
+0,0,what is the price for the event,get_event_fees
+1,1,due to unavoidable reasons i unable to attend the event will i get a refund,is_refundable
+2,2,when is the deadline to make the payment,get_registration_date
+3,3,how much does it cost to register for the event,get_event_fees
+4,4,do you have any online payment options for the event,get_payment_method
+5,5,when is the last day for payments,get_registration_date
+6,6,when is the last day to pay,get_event_fees
+7,7,can i pay through paytm or upi,get_payment_method
+8,8,can i pay for a ticket at the venue,get_payment_method
+9,9,what are the prizes up for grabs,get_prizes
+10,10,can i cancel my registration after paying the fees,is_refundable
+11,11,are there any benefits or discounts,get_discounts
+12,12,can i get a refund if i ca make it,is_refundable
+13,13,do you refund the payment,get_payment_method
+14,14,can i pay using debit cards what if my credit card is not international,get_payment_method
+15,15,which debit cards can be used,get_payment_method
+16,16,hey,greet
+17,17,what is the refund policy,is_refundable
+18,18,what are the various payment methods,get_payment_method
+19,19,can i have a refund of my money,is_refundable
+20,20,can i get the money back,is_refundable
+21,21,can i pay later for the event,get_payment_method
+22,22,is on spot registration available,get_payment_method
+23,23,what all modes of payment are available,get_payment_method
+24,24,what is the schedule for date,show_schedule
+25,25,how long is the lunch break,show_schedule
+26,26,when is the event happening,get_event_date
+27,27,what are the timings for,get_event_time
+28,28,what is happening at 4 on august 5,show_schedule
+29,29,will there be breaks in between technical session on day,show_schedule
+30,30,what is happening on the second day,show_schedule
+31,31,at what time does the event end,get_event_time
+32,32,what events are scheduled on august between 2 to 5,show_schedule
+34,34,major events on the first day,show_schedule
+35,35,when does the event end,get_event_date
+36,36,what is going to happen at on august,show_schedule
+37,37,when does the event start,get_event_date
+38,38,will be get accomodation,show_accomodation
+39,39,whats happening on july around,show_schedule
+40,40,i like to get the iteanery,show_schedule
+41,41,what is the schedule of the event,show_schedule
+42,42,what are the events on date or day,show_schedule
+44,44,what events are going to happen,get_event_date
+45,45,can we come a bit late,get_event_time
+46,46,where can i find the itinerary,show_schedule
+47,47,is there any break,show_schedule
+48,48,who are the speakers for date,show_speakers
+49,49,is there a provision available to meet the speakers after the event,speaker_details_extra
+50,50,who is the speaker,show_speakers
+51,51,where are the speakers from,show_speakers
+52,52,can i get the email of all the speakers,show_speakers
+53,53,how many speakers are coming and will there be a q and a,show_speakers
+54,54,how many speakers are going to speak in the event,show_speakers
+55,55,how many speakers are there,show_speakers
+56,56,could i know more about the ai speakers,show_speakers
+57,57,i like to know about the speakers,show_speakers
+58,58,more about the speakers,show_speakers
+59,59,is there a question and answer session with the speakers,speaker_details_extra
+60,60,who are the speakers at the event,show_speakers
+61,61,who all are coming for panel discussions on what days are the best speakers coming,show_speakers
+62,62,could i get in touch with a speaker,speaker_details_extra
+63,63,where are the speakers from,show_speakers
+64,64,can i have a list of the speakers,show_speakers
+65,65,who are speaking in this event,show_speakers
+66,66,who all are going to speak in the events,show_speakers
+67,67,what speakers are coming in the event,show_speakers
+68,68,can i have a personal chat with them,speaker_details_extra
+69,69,where are they going to stay,show_accomodation
+70,70,what are the arrangements for food,show_food_arrangements
+71,71,do you provide unsweetened drinks for diabetics,show_food_arrangements
+72,72,is food provided for all the days till the event ends,show_food_arrangements
+73,73,is food complimentary,show_food_arrangements
+74,74,does the registration cost involve food,show_food_cost
+75,75,whats the scene with meals,show_food_arrangements
+76,76,is the food unlimited,show_food_arrangements
+77,77,when is lunch going to be served today,show_schedule
+78,78,is food provided,show_food_arrangements
+79,79,any payments related to food,show_food_cost
+80,80,is food provided three times a day,show_schedule
+81,81,will food and snacks be provided,show_food_arrangements
+82,82,do we pay for our own food how many meals are you providing,show_food_arrangements
+83,83,is the food complimentary,show_food_arrangements
+84,84,will food be provided,show_food_arrangements
+85,85,are we going to have lunch breaks during the event,show_schedule
+86,86,can we bring in food from outside,show_food_arrangements
+87,87,what kind of food will be provided,show_food_arrangements
+88,88,will stay be arranged,show_accomodation
+89,89,how far is the college from the hotel i will be staying at,show_accomodation_address
+90,90,how far away from the event is the accomodation arranged,show_accomodation_address
+91,91,is accommodation only for participants or for their family too,show_accomodation
+92,92,will you be arranging accommodation,show_accomodation
+93,93,does the accommodation have ac,show_accomodation
+94,94,how far is the accommodation location from the event location,get_distance
+95,95,do i have to pay separately for accommodation,show_accomodation_price
+96,96,how do i commute to the venue from my accommodation,show_accomodation
+97,97,i like to know the details for accommodation,show_accomodation
+98,98,detailed information regarding accommodation,show_accomodation
+99,99,will you be booking tickets for us if we pay that money,show_accomodation_price
+100,100,will accommodation be arranged for participants,show_accomodation
+101,101,do we pay for our own accommodation how much would it cost,show_accomodation_price
+102,102,is the accommodation provided,show_accomodation
+103,103,what the cost of accomodation,show_accomodation_price
+104,104,whats the scene with accommodation,show_accomodation
+105,105,are the meals going to be provided along with accommodation,show_accomodation
+106,106,is the accommodation provided by you,show_accomodation
+107,107,can i have the details of the stay,show_accomodation_address
+108,108,is the complimentary food given,show_food_arrangements
+109,109,is warm water available,show_accomodation
+110,110,is ac available,show_accomodation
+111,111,any pictures of the rooms,show_accomodation
+112,112,any cheaper acco available,show_accomodation
+113,113,when is event,get_event_date
+114,114,where is your penis,Others
+115,115,where the hoes at,Others
+116,116,where the hoes at,Others
+117,117,fuck my ass,Others
+118,118,how big is wiz khalifa penis,Others
+119,119,who them speakers,show_speakers
+120,120,will i get discounts on registrations,get_discounts
+121,121,what is the damage,get_event_fees
+122,122,how far is it,get_distance
+123,123,when the party,show_schedule
+124,124,where the party,get_distance
+125,125,who the homies on the stage,show_speakers
+126,126,where the titties at,Others
+127,127,is my nigga zuccc a lizzzard,Others
+128,128,i want my money back,is_refundable
+129,129,by when can i get my money back,is_refundable
+130,130,what is the process for refund,is_refundable
+131,131,what are the prizes,get_prizes
+132,132,what am i gon na take home,get_prizes
+133,133,how much should i spend on food,show_food_cost
+134,134,how many times will we get food,show_food_arrangements
+135,135,will snoop dogg smoke weed with us,Others
+136,136,where will the guests stay,show_accomodation
+137,137,who are the peopel speaking,show_speakers
+138,138,will there be a place to stay,show_accomodation_address
+139,139,wheresthe cultural night at,get_location
+140,140,when is the last date to register,get_registration_date
+141,141,by when can i register,get_registration_date
+142,142,when is the vellore tour,get_event_time
+143,143,will i get tshirts,get_prizes
+144,144,from where will the food come,show_food_arrangements
+145,145,what are the hotels available,show_accomodation_address
+146,146,are the speakers qualified,show_speakers
+147,147,any early bird offers,get_discounts
+148,148,what will be the menu,show_food_arrangements
+150,150,i want to know how much the food costs,show_food_cost
+151,151,how can i pay,get_payment_method
+152,152,will i get stickers,get_prizes
+153,153,how many prizes are there,get_prizes
+154,154,can i talk to the speakers after the event,speaker_details_extra
+155,155,tell me where the event is happening,get_location
+156,156,shut up and take my money,get_payment_method
+157,157,who gon na be talking at the show,show_speakers
+158,158,are the number of delegate positions limited,get_registration_date
+160,160,how do i get to the venue,get_distance
+163,163,can i get a map,get_location
+164,164,what about food,show_food_cost
+165,165,can i see the schedule,show_schedule
+166,166,what for food,show_food_cost
+167,167,i want to know what the prizes are,get_prizes
+168,168,how much,get_event_fees
+169,169,let me know about the awards,get_prizes
+170,170,tell me when the event is beginning,get_event_date
+171,171,when does deep learning start,get_registration_date
+172,172,where is this happening,get_location
+173,173,how do you want me to pay,get_payment_method
+174,174,when should i sign up,get_registration_date
+175,175,fill me in about the speakers,show_speakers
+176,176,what are the conditions to get a discount on the registration fees,get_discounts
+177,177,what is the prze distribution,get_prizes
+179,179,how much should i pay for attending the event,get_event_fees
+180,180,how much does this cost,get_event_fees
+181,181,how much money should i pay to attend this,get_event_fees
+182,182,how much would it cost me to attend this event,get_event_fees
+183,183,if i am not available on those dates later will i get my money back,is_refundable
+184,184,can i get my money back if i decide to cancel later,is_refundable
+185,185,will i get refunded if i cancel later,is_refundable
+186,186,are the event fees refundable,is_refundable
+187,187,if i choose to drop out later will i get my money back,is_refundable
+188,188,can i get my money returned if i ca come,is_refundable
+189,189,are there any discounts i can avail on the registration fee,get_discounts
+190,190,any discounts available,get_discounts
+191,191,are there any types of fee reductions we can avail,get_discounts
+192,192,can i cancel and expect a refund,is_refundable
+193,193,are there any discounts applicable for this event,get_discounts
+194,194,where do i stay,show_accomodation
+195,195,how do i pay,get_payment_method
+196,196,i want to cancel my delegation,is_refundable
+197,197,what are the last dates for registrations,get_registration_date
+198,198,when do registrations begin,get_registration_date
+199,199,when can i apply for this event,get_registration_date
+200,200,are there any prizes for this,get_prizes
+201,201,where am i traveling,get_location
+202,202,what is my destination,get_location
+203,203,how far is my destination,get_distance
+204,204,what the entry fee,get_event_fees
+205,205,will i get my money back if i cancel,is_refundable
+206,206,it too costly is there anything i could do to reduce the amount,get_discounts
+207,207,when is the last date for registration,get_registration_date
+208,208,how can i pay,get_payment_method
+209,209,will i win anything,get_prizes
+210,210,when should i come,get_event_time
+211,211,can i stay at my hostel,show_accomodation
+212,212,can i increase my network,show_speakers
+213,213,where is sandeep from,speaker_details_extra
+214,214,what if i get hungry,show_food_arrangements
+215,215,where is it,get_distance
+216,216,what are the timings,show_schedule
+217,217,i love ieee,Others
+218,218,where is it tho,get_location
+219,219,can i get some discounts for the conference,get_discounts
+220,220,what are some of the options where i can stay around,show_accomodation
+221,221,what are some places to stay,show_accomodation
+222,222,can i get a refund,is_refundable
+223,223,show some places to eat around,show_food_arrangements
+224,224,i am hungry,show_food_arrangements
+225,225,best places to get food,show_food_arrangements
+226,226,how much does the food cost,show_food_cost
+227,227,what are the prizes,get_prizes
+228,228,how big is my penis,Others
+229,229,when does this start,get_event_time
+230,230,can i speak to the speakers after the event,speaker_details_extra
+231,231,can i pay lesser,get_discounts
+232,232,what up with the stay for the speakers,show_accomodation
+233,233,tell me how far is this event,get_distance
+234,234,how am i supposed to pay for this,get_payment_method
+235,235,location of the venue,get_location
+236,236,registration fee,get_event_fees
+237,237,what are my accommodations like,show_accomodation
+238,238,what is the refund policy,is_refundable
+239,239,are the rooms,show_accomodation
+240,240,where is vellore exactly,get_location
+241,241,what is the total amount i need to pay,get_event_fees
+242,242,how much amount of the registration fees will be refunded,is_refundable
+243,243,are there any discount codes,get_discounts
+244,244,any discount coupons,get_discounts
+245,245,when is the event starting,get_registration_date
+246,246,can i pay by cash,get_payment_method
+247,247,what is the reward for place,get_prizes
+248,248,when does the event end,get_event_time
+249,249,will i be provided accommodation,show_accomodation
+250,250,is there a speaker from google,show_speakers
+251,251,can i get more details of the event,speaker_details_extra
+252,252,what will be provided for lunch,show_food_arrangements
+253,253,how much for dinner,show_food_cost
+254,254,how far is the event from chennai,get_distance
+255,255,at what time will snacks be served,show_schedule
+256,256,when s the last day of the event,get_event_date
+257,257,what will i get if i win the event,get_prizes
+258,258,do i get accommodation if i join itc,show_accomodation
+259,259,where is the event,get_location
+260,260,who else is going to be there,show_speakers
+261,261,when is the itc starting,get_event_time
+262,262,why is melody so chocolaty,Others
+263,263,who is the first person to walk on the moon,Others
+264,264,i want to order a pizza,Others
+265,265,how is life,Others
+266,266,how to become a fortnite pro,Others
+267,267,who killed jfk,Others
+268,268,hey,greet
+269,269,hello,greet
+270,270,hi,greet
+271,271,yo,greet
+272,272,heyyy,greet
+273,273,heyy,greet
+274,274,heyyyyy,greet
+275,275,hiii,greet
+276,276,who is in charge,greet
+277,277,who is,show_contact_info
+278,278,whom can i contact,show_contact_info
+279,279,hello what up,greet
+280,280,what can you do,about_chatbot
+281,281,what are you capable of,about_chatbot
+282,282,what else can you do,about_chatbot
+283,283,who are you,about_chatbot
+284,284,who are you,about_chatbot
+285,285,what is your purpose,about_chatbot
+286,286,hello friend,greet
+287,287,hello there,greet
+288,288,who was the president of the united states,Others
+289,289,hey,greet
+290,290,hello,greet
+291,291,hi,greet
+292,292,yo,greet
+293,293,heyyy,greet
+294,294,heyy,greet
+295,295,heyyyyy,greet
+296,296,hiii,greet
+297,297,who is in charge,greet
+298,298,who is,show_contact_info
+299,299,whom can i contact,show_contact_info
+300,300,hello what up,greet
+301,301,what can you do,about_chatbot
+302,302,what are you capable of,about_chatbot
+303,303,what else can you do,about_chatbot
+304,304,who are you,about_chatbot
+305,305,who are you,about_chatbot
+306,306,what is your purpose,about_chatbot
+307,307,hello friend,greet
+308,308,hello there,greet
+309,309,due to certain reasons i unable to attend the event will i get a refund,is_refundable
+310,310,due to inescapable reasons i unable to attend the event will i get a refund,is_refundable
+311,311,due to inevitable reasons i unable to attend the event will i get a refund,is_refundable
+312,312,due to necessary reasons i unable to attend the event will i get a refund,is_refundable
+313,313,due to unavoidable logic i unable to attend the event will i get a refund,is_refundable
+314,314,due to unavoidable reasoning i unable to attend the event will i get a refund,is_refundable
+315,315,due to unavoidable sense i unable to attend the event will i get a refund,is_refundable
+316,316,due to unavoidable reasons i helpless to attend the event will i get a refund,is_refundable
+317,317,due to unavoidable reasons i impotent to attend the event will i get a refund,is_refundable
+318,318,due to unavoidable reasons i inadequate to attend the event will i get a refund,is_refundable
+319,319,due to unavoidable reasons i incapable to attend the event will i get a refund,is_refundable
+320,320,due to unavoidable reasons i unable to show up the event will i get a refund,is_refundable
+321,321,due to unavoidable reasons i unable to visit the event will i get a refund,is_refundable
+322,322,due to unavoidable reasons i unable to attend the event will i get an allowance,is_refundable
+323,323,due to unavoidable reasons i unable to attend the event will i get an compensation,is_refundable
+324,324,due to unavoidable reasons i unable to attend the event will i get an discount,is_refundable
+325,325,due to unavoidable reasons i unable to attend the event will i get an kickback,is_refundable
+326,326,when is the limit to make the payment,get_registration_date
+327,327,when is the period to make the payment,get_registration_date
+328,328,when is the time limit to make the payment,get_registration_date
+329,329,when is the deadline to make the amount,get_registration_date
+330,330,when is the deadline to make the award,get_registration_date
+331,331,when is the deadline to make the cash,get_registration_date
+332,332,when is the deadline to make the deposit,get_registration_date
+333,333,how much does it cost to registry for the event,get_event_fees
+334,334,how much does it cost to roster for the event,get_event_fees
+335,335,do you have any wired payment options for the event,get_payment_method
+336,336,do you have any online amount options for the event,get_payment_method
+337,337,do you have any online award options for the event,get_payment_method
+338,338,do you have any online cash options for the event,get_payment_method
+339,339,do you have any online deposit options for the event,get_payment_method
+340,340,do you have any online payment benefit for the event,get_payment_method
+341,341,do you have any online payment choice for the event,get_payment_method
+342,342,do you have any online payment opportunity for the event,get_payment_method
+343,343,do you have any online payment preference for the event,get_payment_method
+344,344,when is the last day for amount,get_registration_date
+345,345,when is the last day for award,get_registration_date
+346,346,when is the last day for cash,get_registration_date
+347,347,when is the last day for deposit,get_registration_date
+348,348,can i pay over paytm or upi,get_payment_method
+349,349,can i pay for an admission at the venue,get_payment_method
+350,350,can i pay for an card at the venue,get_payment_method
+351,351,can i pay for an certificate at the venue,get_payment_method
+352,352,can i pay for an check at the venue,get_payment_method
+353,353,what are the accolade up for grabs,get_prizes
+354,354,what are the advantage up for grabs,get_prizes
+355,355,what are the bonus up for grabs,get_prizes
+356,356,what are the bounty up for grabs,get_prizes
+357,357,can i abolish my registration after paying the fees,is_refundable
+358,358,can i abort my registration after paying the fees,is_refundable
+359,359,can i annul my registration after paying the fees,is_refundable
+360,360,can i break off my registration after paying the fees,is_refundable
+361,361,can i cancel my booking after paying the fees,is_refundable
+362,362,can i cancel my certification after paying the fees,is_refundable
+363,363,can i cancel my enrollment after paying the fees,is_refundable
+364,364,can i cancel my filing after paying the fees,is_refundable
+365,365,can i cancel my registration after compensate the fees,is_refundable
+366,366,can i cancel my registration after disburse the fees,is_refundable
+367,367,can i cancel my registration after extend the fees,is_refundable
+368,368,can i cancel my registration after grant the fees,is_refundable
+369,369,are there any aid or discounts,get_discounts
+370,370,are there any asset or discounts,get_discounts
+371,371,are there any assistance or discounts,get_discounts
+372,372,are there any gain or discounts,get_discounts
+373,373,are there any benefits or allowance,get_discounts
+374,374,are there any benefits or concession,get_discounts
+375,375,are there any benefits or decrease,get_discounts
+376,376,are there any benefits or deduction,get_discounts
+377,377,can i get an allowance if i ca make it,is_refundable
+378,378,can i get an compensation if i ca make it,is_refundable
+379,379,can i get an discount if i ca make it,is_refundable
+380,380,can i get an kickback if i ca make it,is_refundable
+381,381,do you allowance the payment,get_payment_method
+382,382,do you compensation the payment,get_payment_method
+383,383,do you discount the payment,get_payment_method
+384,384,do you kickback the payment,get_payment_method
+385,385,do you refund the amount,get_payment_method
+386,386,do you refund the award,get_payment_method
+387,387,do you refund the cash,get_payment_method
+388,388,do you refund the deposit,get_payment_method
+389,389,can i pay using debit cards what if my attention card is not international,get_payment_method
+390,390,can i pay using debit cards what if my credit card is not foreign,get_payment_method
+391,391,can i pay using debit cards what if my credit card is not global,get_payment_method
+392,392,can i pay using debit cards what if my credit card is not universal,get_payment_method
+393,393,what is the allowance policy,is_refundable
+394,394,what is the compensation policy,is_refundable
+395,395,what is the discount policy,is_refundable
+396,396,what is the kickback policy,is_refundable
+397,397,what is the refund action,is_refundable
+398,398,what is the refund administration,is_refundable
+399,399,what is the refund approach,is_refundable
+400,400,what is the refund arrangement,is_refundable
+401,401,what are the assorted payment methods,get_payment_method
+402,402,what are the different payment methods,get_payment_method
+403,403,what are the discrete payment methods,get_payment_method
+404,404,what are the disparate payment methods,get_payment_method
+405,405,what are the various amount methods,get_payment_method
+406,406,what are the various award methods,get_payment_method
+407,407,what are the various cash methods,get_payment_method
+408,408,what are the various deposit methods,get_payment_method
+409,409,what are the various payment approach,get_payment_method
+410,410,what are the various payment arrangement,get_payment_method
+411,411,what are the various payment design,get_payment_method
+412,412,what are the various payment form,get_payment_method
+413,413,can i have an allowance of my money,is_refundable
+414,414,can i have an compensation of my money,is_refundable
+415,415,can i have an discount of my money,is_refundable
+416,416,can i have an kickback of my money,is_refundable
+417,417,is on spot booking available,get_payment_method
+418,418,is on spot certification available,get_payment_method
+419,419,is on spot enrollment available,get_payment_method
+420,420,is on spot filing available,get_payment_method
+421,421,is on spot registration accessible,get_payment_method
+422,422,is on spot registration applicable,get_payment_method
+423,423,is on spot registration convenient,get_payment_method
+424,424,is on spot registration feasible,get_payment_method
+425,425,what all modes of amount are available,get_payment_method
+426,426,what all modes of award are available,get_payment_method
+427,427,what all modes of cash are available,get_payment_method
+428,428,what all modes of deposit are available,get_payment_method
+429,429,what all modes of payment are accessible,get_payment_method
+430,430,what all modes of payment are applicable,get_payment_method
+431,431,what all modes of payment are convenient,get_payment_method
+432,432,what all modes of payment are feasible,get_payment_method
+433,433,what is the agenda for date,show_schedule
+434,434,what is the calendar for date,show_schedule
+435,435,what is the chart for date,show_schedule
+436,436,what is the itinerary for date,show_schedule
+437,437,when is the event accident,get_event_date
+438,438,when is the event adventure,get_event_date
+439,439,when is the event circumstance,get_event_date
+440,440,when is the event incident,get_event_date
+441,441,what is accident at 4 on august 5,show_schedule
+442,442,what is adventure at 4 on august 5,show_schedule
+443,443,what is circumstance at 4 on august 5,show_schedule
+444,444,what is incident at 4 on august 5,show_schedule
+445,445,will there be crack in between technical session on day,show_schedule
+446,446,will there be gap in between technical session on day,show_schedule
+447,447,will there be hole in between technical session on day,show_schedule
+448,448,will there be breaks in between session on day,show_schedule
+449,449,will there be breaks in between industrial session on day,show_schedule
+450,450,will there be breaks in between mechanical session on day,show_schedule
+451,451,will there be breaks in between professional session on day,show_schedule
+452,452,will there be breaks in between technical conference on day,show_schedule
+453,453,will there be breaks in between technical discussion on day,show_schedule
+454,454,will there be breaks in between technical hearing on day,show_schedule
+455,455,will there be breaks in between technical period on day,show_schedule
+456,456,what is accident on the second day,show_schedule
+457,457,what is adventure on the second day,show_schedule
+458,458,what is circumstance on the second day,show_schedule
+459,459,what is incident on the second day,show_schedule
+460,460,what accident are scheduled on august between 2 to 5,show_schedule
+461,461,what act are scheduled on august between 2 to 5,show_schedule
+462,462,what action are scheduled on august between 2 to 5,show_schedule
+463,463,what affair are scheduled on august between 2 to 5,show_schedule
+464,464,what events are anticipated on august between 2 to 5,show_schedule
+465,465,what events are expected on august between 2 to 5,show_schedule
+473,473,major accident on the first day,show_schedule
+474,474,major act on the first day,show_schedule
+475,475,major action on the first day,show_schedule
+476,476,major affair on the first day,show_schedule
+477,477,what is going to appear at on august,show_schedule
+478,478,what is going to arise at on august,show_schedule
+479,479,what is going to arrive at on august,show_schedule
+480,480,what is going to crop up at on august,show_schedule
+481,481,whats accident on july around,show_schedule
+482,482,whats adventure on july around,show_schedule
+483,483,whats circumstance on july around,show_schedule
+484,484,whats incident on july around,show_schedule
+485,485,whats happening on july about,show_schedule
+486,486,whats happening on july everywhere,show_schedule
+487,487,whats happening on july over,show_schedule
+488,488,what is the agenda of the event,show_schedule
+489,489,what is the calendar of the event,show_schedule
+490,490,what is the chart of the event,show_schedule
+491,491,what is the itinerary of the event,show_schedule
+492,492,what are the accident on date or day,show_schedule
+493,493,what are the act on date or day,show_schedule
+494,494,what are the action on date or day,show_schedule
+495,495,what are the affair on date or day,show_schedule
+507,507,what accident are going to happen,get_event_date
+508,508,what act are going to happen,get_event_date
+509,509,what action are going to happen,get_event_date
+510,510,what affair are going to happen,get_event_date
+511,511,what events are going to appear,get_event_date
+512,512,what events are going to arise,get_event_date
+513,513,what events are going to arrive,get_event_date
+514,514,what events are going to crop up,get_event_date
+515,515,where can i find the guidebook,show_schedule
+516,516,where can i find the journey,show_schedule
+517,517,where can i find the path,show_schedule
+518,518,where can i find the route,show_schedule
+519,519,is there an arrangement available to meet the speakers after the event,speaker_details_extra
+520,520,is there an plan available to meet the speakers after the event,speaker_details_extra
+521,521,is there a provision accessible to meet the speakers after the event,speaker_details_extra
+522,522,is there a provision applicable to meet the speakers after the event,speaker_details_extra
+523,523,is there a provision convenient to meet the speakers after the event,speaker_details_extra
+524,524,is there a provision feasible to meet the speakers after the event,speaker_details_extra
+525,525,how many speakers are anticipated and will there be a q and a,show_speakers
+526,526,how many speakers are expected and will there be a q and a,show_speakers
+527,527,how many speakers are forthcoming and will there be a q and a,show_speakers
+528,528,how many speakers are impending and will there be a q and a,show_speakers
+529,529,is there an inquiry and answer session with the speakers,speaker_details_extra
+530,530,is there an investigation and answer session with the speakers,speaker_details_extra
+531,531,is there an query and answer session with the speakers,speaker_details_extra
+532,532,is there an questioning and answer session with the speakers,speaker_details_extra
+533,533,is there a question and comment session with the speakers,speaker_details_extra
+534,534,is there a question and explanation session with the speakers,speaker_details_extra
+535,535,is there a question and feedback session with the speakers,speaker_details_extra
+536,536,is there a question and interpretation session with the speakers,speaker_details_extra
+537,537,is there a question and answer conference with the speakers,speaker_details_extra
+538,538,is there a question and answer discussion with the speakers,speaker_details_extra
+539,539,is there a question and answer hearing with the speakers,speaker_details_extra
+540,540,is there a question and answer period with the speakers,speaker_details_extra
+541,541,who all are anticipated for panel discussions on what days are the best speakers coming,show_speakers
+542,542,who all are expected for panel discussions on what days are the best speakers coming,show_speakers
+543,543,who all are forthcoming for panel discussions on what days are the best speakers coming,show_speakers
+544,544,who all are impending for panel discussions on what days are the best speakers coming,show_speakers
+545,545,who all are coming for panel analysis on what days are the best speakers coming,show_speakers
+546,546,who all are coming for panel argument on what days are the best speakers coming,show_speakers
+547,547,who all are coming for panel conference on what days are the best speakers coming,show_speakers
+548,548,who all are coming for panel consideration on what days are the best speakers coming,show_speakers
+549,549,who all are going to speak in the accident,show_speakers
+550,550,who all are going to speak in the act,show_speakers
+551,551,who all are going to speak in the action,show_speakers
+552,552,who all are going to speak in the affair,show_speakers
+553,553,what speakers are anticipated in the event,show_speakers
+554,554,what speakers are expected in the event,show_speakers
+555,555,what speakers are forthcoming in the event,show_speakers
+556,556,what speakers are impending in the event,show_speakers
+557,557,can i have an intimate chat with them,speaker_details_extra
+558,558,can i have an particular chat with them,speaker_details_extra
+559,559,can i have an secret chat with them,speaker_details_extra
+560,560,can i have an special chat with them,speaker_details_extra
+561,561,do you add unsweetened drinks for diabetics,show_food_arrangements
+562,562,do you administer unsweetened drinks for diabetics,show_food_arrangements
+563,563,do you afford unsweetened drinks for diabetics,show_food_arrangements
+564,564,do you arrange unsweetened drinks for diabetics,show_food_arrangements
+565,565,do you provide harsh drinks for diabetics,show_food_arrangements
+566,566,do you provide sour drinks for diabetics,show_food_arrangements
+567,567,do you provide unsweetened alcohol for diabetics,show_food_arrangements
+568,568,do you provide unsweetened booze for diabetics,show_food_arrangements
+569,569,do you provide unsweetened brew for diabetics,show_food_arrangements
+570,570,do you provide unsweetened cup for diabetics,show_food_arrangements
+571,571,is food add for all the days till the event ends,show_food_arrangements
+572,572,is food administer for all the days till the event ends,show_food_arrangements
+573,573,is food afford for all the days till the event ends,show_food_arrangements
+574,574,is food arrange for all the days till the event ends,show_food_arrangements
+575,575,is food appreciative,show_food_arrangements
+576,576,is food congratulatory,show_food_arrangements
+577,577,is food polite,show_food_arrangements
+578,578,is food respectful,show_food_arrangements
+579,579,does the booking cost involve food,show_food_cost
+580,580,does the certification cost involve food,show_food_cost
+581,581,does the enrollment cost involve food,show_food_cost
+582,582,does the filing cost involve food,show_food_cost
+583,583,does the registration cost affect food,show_food_cost
+584,584,does the registration cost associate food,show_food_cost
+585,585,does the registration cost catch food,show_food_cost
+586,586,does the registration cost commit food,show_food_cost
+587,587,is the food absolute,show_food_arrangements
+588,588,is the food boundless,show_food_arrangements
+589,589,is the food endless,show_food_arrangements
+590,590,is the food immeasurable,show_food_arrangements
+591,591,is food add,show_food_arrangements
+592,592,is food administer,show_food_arrangements
+593,593,is food afford,show_food_arrangements
+594,594,is food arrange,show_food_arrangements
+595,595,any amount related to food,show_food_cost
+596,596,any award related to food,show_food_cost
+597,597,any cash related to food,show_food_cost
+598,598,any deposit related to food,show_food_cost
+599,599,any payments akin to food,show_food_cost
+600,600,any payments analogous to food,show_food_cost
+601,601,any payments associated to food,show_food_cost
+602,602,any payments complementary to food,show_food_cost
+603,603,is food add three times a day,show_schedule
+604,604,is food administer three times a day,show_schedule
+605,605,is food afford three times a day,show_schedule
+606,606,is food arrange three times a day,show_schedule
+607,607,will food and lunch be provided,show_food_arrangements
+608,608,will food and morsel be provided,show_food_arrangements
+609,609,will food and refreshment be provided,show_food_arrangements
+610,610,will food and tea be provided,show_food_arrangements
+611,611,will food and snacks be add,show_food_arrangements
+612,612,will food and snacks be administer,show_food_arrangements
+613,613,will food and snacks be afford,show_food_arrangements
+614,614,will food and snacks be arrange,show_food_arrangements
+615,615,is the food appreciative,show_food_arrangements
+616,616,is the food congratulatory,show_food_arrangements
+617,617,is the food polite,show_food_arrangements
+618,618,is the food respectful,show_food_arrangements
+619,619,will food be add,show_food_arrangements
+620,620,will food be administer,show_food_arrangements
+621,621,will food be afford,show_food_arrangements
+622,622,will food be arrange,show_food_arrangements
+623,623,are we going to have lunch crack during the event,show_schedule
+624,624,are we going to have lunch gap during the event,show_schedule
+625,625,are we going to have lunch hole during the event,show_schedule
+626,626,can we bring in food from farther,show_food_arrangements
+627,627,can we bring in food from foreign,show_food_arrangements
+628,628,can we bring in food from out,show_food_arrangements
+629,629,what kind of food will be add,show_food_arrangements
+630,630,what kind of food will be administer,show_food_arrangements
+631,631,what kind of food will be afford,show_food_arrangements
+632,632,what kind of food will be arrange,show_food_arrangements
+633,633,will stay be file,show_accomodation
+634,634,will stay be form,show_accomodation
+635,635,will stay be organize,show_accomodation
+636,636,how far is the college from the hotel i will be continue at,show_accomodation_address
+637,637,how far is the college from the hotel i will be delay at,show_accomodation_address
+638,638,how far is the college from the hotel i will be hang at,show_accomodation_address
+639,639,how far is the college from the hotel i will be last at,show_accomodation_address
+640,640,how far away from the event is the accomodation file,show_accomodation_address
+641,641,how far away from the event is the accomodation form,show_accomodation_address
+642,642,how far away from the event is the accomodation organize,show_accomodation_address
+643,643,is compromise only for participants or for their family too,show_accomodation
+644,644,is reconciliation only for participants or for their family too,show_accomodation
+645,645,is accommodation only for colleague or for their family too,show_accomodation
+646,646,is accommodation only for member or for their family too,show_accomodation
+647,647,is accommodation only for partner or for their family too,show_accomodation
+648,648,is accommodation only for party or for their family too,show_accomodation
+649,649,is accommodation only for participants or for their clan too,show_accomodation
+650,650,is accommodation only for participants or for their folk too,show_accomodation
+651,651,is accommodation only for participants or for their group too,show_accomodation
+652,652,is accommodation only for participants or for their house too,show_accomodation
+653,653,will you be file accommodation,show_accomodation
+654,654,will you be form accommodation,show_accomodation
+655,655,will you be organize accommodation,show_accomodation
+656,656,will you be arranging compromise,show_accomodation
+657,657,will you be arranging reconciliation,show_accomodation
+658,658,does the compromise have ac,show_accomodation
+659,659,does the reconciliation have ac,show_accomodation
+660,660,how far is the compromise location from the event location,get_distance
+661,661,how far is the reconciliation location from the event location,get_distance
+662,662,how far is the accommodation area from the event location,get_distance
+663,663,how far is the accommodation district from the event location,get_distance
+664,664,how far is the accommodation locale from the event location,get_distance
+665,665,how far is the accommodation neighborhood from the event location,get_distance
+666,666,do i have to pay independently for accommodation,show_accomodation_price
+667,667,do i have to pay personally for accommodation,show_accomodation_price
+668,668,do i have to pay solely for accommodation,show_accomodation_price
+669,669,do i have to pay separately for compromise,show_accomodation_price
+670,670,do i have to pay separately for reconciliation,show_accomodation_price
+671,671,how do i commute to the venue from my compromise,show_accomodation
+672,672,how do i commute to the venue from my reconciliation,show_accomodation
+673,673,i like to know the minutiae for accommodation,show_accomodation
+674,674,i like to know the details for compromise,show_accomodation
+675,675,i like to know the details for reconciliation,show_accomodation
+676,676,accurate information regarding accommodation,show_accomodation
+677,677,complicated information regarding accommodation,show_accomodation
+678,678,comprehensive information regarding accommodation,show_accomodation
+679,679,definite information regarding accommodation,show_accomodation
+680,680,detailed advice regarding accommodation,show_accomodation
+681,681,detailed clue regarding accommodation,show_accomodation
+682,682,detailed data regarding accommodation,show_accomodation
+683,683,detailed info regarding accommodation,show_accomodation
+684,684,detailed information regarding compromise,show_accomodation
+685,685,detailed information regarding reconciliation,show_accomodation
+686,686,will you be booking admission for us if we pay that money,show_accomodation_price
+687,687,will you be booking card for us if we pay that money,show_accomodation_price
+688,688,will you be booking certificate for us if we pay that money,show_accomodation_price
+689,689,will you be booking check for us if we pay that money,show_accomodation_price
+690,690,will compromise be arranged for participants,show_accomodation
+691,691,will reconciliation be arranged for participants,show_accomodation
+692,692,will accommodation be file for participants,show_accomodation
+693,693,will accommodation be form for participants,show_accomodation
+694,694,will accommodation be organize for participants,show_accomodation
+695,695,will accommodation be arranged for colleague,show_accomodation
+696,696,will accommodation be arranged for member,show_accomodation
+697,697,will accommodation be arranged for partner,show_accomodation
+698,698,will accommodation be arranged for party,show_accomodation
+699,699,do we pay for our own compromise how much would it cost,show_accomodation_price
+700,700,do we pay for our own reconciliation how much would it cost,show_accomodation_price
+701,701,is the compromise provided,show_accomodation
+702,702,is the reconciliation provided,show_accomodation
+703,703,is the accommodation add,show_accomodation
+704,704,is the accommodation administer,show_accomodation
+705,705,is the accommodation afford,show_accomodation
+706,706,is the accommodation arrange,show_accomodation
+707,707,whats the scene with compromise,show_accomodation
+708,708,whats the scene with reconciliation,show_accomodation
+709,709,are the meals going to be add along with accommodation,show_accomodation
+710,710,are the meals going to be administer along with accommodation,show_accomodation
+711,711,are the meals going to be afford along with accommodation,show_accomodation
+712,712,are the meals going to be arrange along with accommodation,show_accomodation
+713,713,are the meals going to be provided along with compromise,show_accomodation
+714,714,are the meals going to be provided along with reconciliation,show_accomodation
+715,715,is the compromise provided by you,show_accomodation
+716,716,is the reconciliation provided by you,show_accomodation
+717,717,is the accommodation add by you,show_accomodation
+718,718,is the accommodation administer by you,show_accomodation
+719,719,is the accommodation afford by you,show_accomodation
+720,720,is the accommodation arrange by you,show_accomodation
+721,721,can i have the minutiae of the stay,show_accomodation_address
+722,722,is the appreciative food given,show_food_arrangements
+723,723,is the congratulatory food given,show_food_arrangements
+724,724,is the polite food given,show_food_arrangements
+725,725,is the respectful food given,show_food_arrangements
+726,726,is warm water accessible,show_accomodation
+727,727,is warm water applicable,show_accomodation
+728,728,is warm water convenient,show_accomodation
+729,729,is warm water feasible,show_accomodation
+730,730,is ac accessible,show_accomodation
+731,731,is ac applicable,show_accomodation
+732,732,is ac convenient,show_accomodation
+733,733,is ac feasible,show_accomodation
+734,734,any account of the rooms,show_accomodation
+735,735,any art of the rooms,show_accomodation
+736,736,any cartoon of the rooms,show_accomodation
+737,737,any copy of the rooms,show_accomodation
+738,738,any competitive acco available,show_accomodation
+739,739,any economical acco available,show_accomodation
+740,740,any acco available,show_accomodation
+741,741,any acco available,show_accomodation
+742,742,any cheaper acco accessible,show_accomodation
+743,743,any cheaper acco applicable,show_accomodation
+744,744,any cheaper acco convenient,show_accomodation
+745,745,any cheaper acco feasible,show_accomodation
+746,746,will i get allowance on registrations,get_discounts
+747,747,will i get concession on registrations,get_discounts
+748,748,will i get decrease on registrations,get_discounts
+749,749,will i get deduction on registrations,get_discounts
+750,750,will i get discounts on booking,get_discounts
+751,751,will i get discounts on certification,get_discounts
+752,752,will i get discounts on enrollment,get_discounts
+753,753,will i get discounts on filing,get_discounts
+754,754,what is the accident,get_event_fees
+755,755,what is the blow,get_event_fees
+756,756,what is the bruise,get_event_fees
+757,757,what is the casualty,get_event_fees
+758,758,what is the action for refund,is_refundable
+759,759,what is the case for refund,is_refundable
+760,760,what is the course for refund,is_refundable
+761,761,what is the development for refund,is_refundable
+762,762,what is the process for allowance,is_refundable
+763,763,what is the process for compensation,is_refundable
+764,764,what is the process for discount,is_refundable
+765,765,what is the process for kickback,is_refundable
+766,766,what are the accolade,get_prizes
+767,767,what are the advantage,get_prizes
+768,768,what are the bonus,get_prizes
+769,769,what are the bounty,get_prizes
+770,770,where will the caller stay,show_accomodation
+771,771,where will the client stay,show_accomodation
+772,772,where will the companion stay,show_accomodation
+773,773,where will the customer stay,show_accomodation
+774,774,wheresthe artistic night at,get_location
+775,775,wheresthe developmental night at,get_location
+776,776,when is the last date to registry,get_registration_date
+777,777,when is the last date to roster,get_registration_date
+778,778,by when can i registry,get_registration_date
+779,779,by when can i roster,get_registration_date
+780,780,will i get bodice,get_prizes
+781,781,will i get pullover,get_prizes
+782,782,will i get turtleneck,get_prizes
+783,783,what are the hostel available,show_accomodation_address
+784,784,what are the house available,show_accomodation_address
+785,785,what are the inn available,show_accomodation_address
+786,786,what are the lodging available,show_accomodation_address
+787,787,what are the hotels accessible,show_accomodation_address
+788,788,what are the hotels applicable,show_accomodation_address
+789,789,what are the hotels convenient,show_accomodation_address
+790,790,what are the hotels feasible,show_accomodation_address
+791,791,are the speakers accomplished,show_speakers
+792,792,are the speakers adequate,show_speakers
+793,793,are the speakers capable,show_speakers
+794,794,are the speakers certified,show_speakers
+795,795,any early bird action,get_discounts
+796,796,any early bird attempt,get_discounts
+797,797,any early bird bid,get_discounts
+798,798,any early bird overture,get_discounts
+803,803,will i get company,get_prizes
+804,804,will i get design,get_prizes
+805,805,will i get logo,get_prizes
+806,806,will i get number,get_prizes
+807,807,how many accolade are there,get_prizes
+808,808,how many advantage are there,get_prizes
+809,809,how many bonus are there,get_prizes
+810,810,how many bounty are there,get_prizes
+811,811,tell me where the event is accident,get_location
+812,812,tell me where the event is adventure,get_location
+813,813,tell me where the event is circumstance,get_location
+814,814,tell me where the event is incident,get_location
+815,815,are the figure of delegate positions limited,get_registration_date
+816,816,are the statistic of delegate positions limited,get_registration_date
+817,817,are the sum of delegate positions limited,get_registration_date
+818,818,are the total of delegate positions limited,get_registration_date
+819,819,are the number of commissioner positions limited,get_registration_date
+820,820,are the number of deputy positions limited,get_registration_date
+821,821,are the number of envoy positions limited,get_registration_date
+822,822,are the number of member positions limited,get_registration_date
+823,823,are the number of delegate area limited,get_registration_date
+824,824,are the number of delegate environment limited,get_registration_date
+825,825,are the number of delegate location limited,get_registration_date
+826,826,are the number of delegate point limited,get_registration_date
+827,827,are the number of delegate positions defined,get_registration_date
+828,828,are the number of delegate positions finite,get_registration_date
+829,829,are the number of delegate positions narrow,get_registration_date
+832,832,can i see the agenda,show_schedule
+833,833,can i see the calendar,show_schedule
+834,834,can i see the chart,show_schedule
+835,835,can i see the itinerary,show_schedule
+836,836,i want to know what the accolade are,get_prizes
+837,837,i want to know what the advantage are,get_prizes
+838,838,i want to know what the bonus are,get_prizes
+839,839,i want to know what the bounty are,get_prizes
+840,840,let me know about the accolade,get_prizes
+841,841,let me know about the citation,get_prizes
+842,842,let me know about the decision,get_prizes
+843,843,let me know about the donation,get_prizes
+844,844,tell me when the event is birth,get_event_date
+845,845,tell me when the event is creation,get_event_date
+846,846,tell me when the event is dawn,get_event_date
+847,847,tell me when the event is inauguration,get_event_date
+848,848,when does deep culture start,get_registration_date
+849,849,when does deep information start,get_registration_date
+850,850,when does deep literature start,get_registration_date
+851,851,when does deep research start,get_registration_date
+852,852,where is this accident,get_location
+853,853,where is this adventure,get_location
+854,854,where is this circumstance,get_location
+855,855,where is this incident,get_location
+856,856,what are the conditions to get an allowance on the registration fees,get_discounts
+857,857,what are the conditions to get an concession on the registration fees,get_discounts
+858,858,what are the conditions to get an decrease on the registration fees,get_discounts
+859,859,what are the conditions to get an deduction on the registration fees,get_discounts
+860,860,what are the conditions to get a discount on the booking fees,get_discounts
+861,861,what are the conditions to get a discount on the certification fees,get_discounts
+862,862,what are the conditions to get a discount on the enrollment fees,get_discounts
+863,863,what are the conditions to get a discount on the filing fees,get_discounts
+864,864,what is the prze circulation,get_prizes
+865,865,what is the prze delivery,get_prizes
+866,866,what is the prze disposal,get_prizes
+867,867,what is the prze dissemination,get_prizes
+875,875,how much money should i pay to show up this,get_event_fees
+876,876,how much money should i pay to visit this,get_event_fees
+877,877,how much would it cost me to show up this event,get_event_fees
+878,878,how much would it cost me to visit this event,get_event_fees
+879,879,if i am not accessible on those dates later will i get my money back,is_refundable
+880,880,if i am not applicable on those dates later will i get my money back,is_refundable
+881,881,if i am not convenient on those dates later will i get my money back,is_refundable
+882,882,if i am not feasible on those dates later will i get my money back,is_refundable
+883,883,can i get my money back if i agree to cancel later,is_refundable
+884,884,can i get my money back if i choose to cancel later,is_refundable
+885,885,can i get my money back if i conclude to cancel later,is_refundable
+886,886,can i get my money back if i determine to cancel later,is_refundable
+887,887,can i get my money back if i decide to abolish later,is_refundable
+888,888,can i get my money back if i decide to abort later,is_refundable
+889,889,can i get my money back if i decide to annul later,is_refundable
+890,890,can i get my money back if i decide to break off later,is_refundable
+891,891,will i get refunded if i abolish later,is_refundable
+892,892,will i get refunded if i abort later,is_refundable
+893,893,will i get refunded if i annul later,is_refundable
+894,894,will i get refunded if i break off later,is_refundable
+895,895,if i accept to drop out later will i get my money back,is_refundable
+896,896,if i adopt to drop out later will i get my money back,is_refundable
+897,897,if i appoint to drop out later will i get my money back,is_refundable
+898,898,if i cast to drop out later will i get my money back,is_refundable
+899,899,are there any allowance i can avail on the registration fee,get_discounts
+900,900,are there any concession i can avail on the registration fee,get_discounts
+901,901,are there any decrease i can avail on the registration fee,get_discounts
+902,902,are there any deduction i can avail on the registration fee,get_discounts
+903,903,are there any discounts i can avail on the booking fee,get_discounts
+904,904,are there any discounts i can avail on the certification fee,get_discounts
+905,905,are there any discounts i can avail on the enrollment fee,get_discounts
+906,906,are there any discounts i can avail on the filing fee,get_discounts
+907,907,any allowance available,get_discounts
+908,908,any concession available,get_discounts
+909,909,any decrease available,get_discounts
+910,910,any deduction available,get_discounts
+911,911,any discounts accessible,get_discounts
+912,912,any discounts applicable,get_discounts
+913,913,any discounts convenient,get_discounts
+914,914,any discounts feasible,get_discounts
+915,915,are there any types of fee contraction we can avail,get_discounts
+916,916,are there any types of fee cut we can avail,get_discounts
+917,917,are there any types of fee cutback we can avail,get_discounts
+918,918,are there any types of fee devaluation we can avail,get_discounts
+919,919,can i abolish and expect a refund,is_refundable
+920,920,can i abort and expect a refund,is_refundable
+921,921,can i annul and expect a refund,is_refundable
+922,922,can i break off and expect a refund,is_refundable
+923,923,can i cancel and await a refund,is_refundable
+924,924,can i cancel and forecast a refund,is_refundable
+925,925,can i cancel and foresee a refund,is_refundable
+926,926,can i cancel and hope a refund,is_refundable
+927,927,can i cancel and expect an allowance,is_refundable
+928,928,can i cancel and expect an compensation,is_refundable
+929,929,can i cancel and expect an discount,is_refundable
+930,930,can i cancel and expect an kickback,is_refundable
+931,931,are there any allowance applicable for this event,get_discounts
+932,932,are there any concession applicable for this event,get_discounts
+933,933,are there any decrease applicable for this event,get_discounts
+934,934,are there any deduction applicable for this event,get_discounts
+935,935,are there any discounts germane for this event,get_discounts
+936,936,are there any discounts pertinent for this event,get_discounts
+937,937,are there any discounts relevant for this event,get_discounts
+938,938,are there any discounts suitable for this event,get_discounts
+939,939,i want to abolish my delegation,is_refundable
+940,940,i want to abort my delegation,is_refundable
+941,941,i want to annul my delegation,is_refundable
+942,942,i want to break off my delegation,is_refundable
+943,943,what are the last dates for booking,get_registration_date
+944,944,what are the last dates for certification,get_registration_date
+945,945,what are the last dates for enrollment,get_registration_date
+946,946,what are the last dates for filing,get_registration_date
+947,947,when do booking begin,get_registration_date
+948,948,when do certification begin,get_registration_date
+949,949,when do enrollment begin,get_registration_date
+950,950,when do filing begin,get_registration_date
+951,951,are there any accolade for this,get_prizes
+952,952,are there any advantage for this,get_prizes
+953,953,are there any bonus for this,get_prizes
+954,954,are there any bounty for this,get_prizes
+955,955,what is my harbor,get_location
+956,956,what is my haven,get_location
+957,957,what is my station,get_location
+958,958,what is my stop,get_location
+959,959,how far is my harbor,get_distance
+960,960,how far is my haven,get_distance
+961,961,how far is my station,get_distance
+962,962,how far is my stop,get_distance
+963,963,will i get my money back if i abolish,is_refundable
+964,964,will i get my money back if i abort,is_refundable
+965,965,will i get my money back if i annul,is_refundable
+966,966,will i get my money back if i break off,is_refundable
+967,967,it too pricey is there anything i could do to reduce the amount,get_discounts
+968,968,it too valuable is there anything i could do to reduce the amount,get_discounts
+969,969,it too costly is there all i could do to reduce the amount,get_discounts
+970,970,it too costly is there everything i could do to reduce the amount,get_discounts
+971,971,it too costly is there anything i could do to curtail the amount,get_discounts
+972,972,it too costly is there anything i could do to cut the amount,get_discounts
+973,973,it too costly is there anything i could do to cut down the amount,get_discounts
+974,974,it too costly is there anything i could do to diminish the amount,get_discounts
+975,975,it too costly is there anything i could do to reduce the bulk,get_discounts
+976,976,it too costly is there anything i could do to reduce the chunk,get_discounts
+977,977,it too costly is there anything i could do to reduce the extent,get_discounts
+978,978,it too costly is there anything i could do to reduce the load,get_discounts
+979,979,when is the last date for booking,get_registration_date
+980,980,when is the last date for certification,get_registration_date
+981,981,when is the last date for enrollment,get_registration_date
+982,982,when is the last date for filing,get_registration_date
+983,983,will i win all,get_prizes
+984,984,will i win everything,get_prizes
+985,985,can i stay at my hotel,show_accomodation
+986,986,can i stay at my inn,show_accomodation
+987,987,can i boost my network,show_speakers
+988,988,can i development my network,show_speakers
+989,989,can i escalation my network,show_speakers
+990,990,can i expansion my network,show_speakers
+991,991,can i increase my chain,show_speakers
+992,992,can i increase my grid,show_speakers
+993,993,can i increase my net,show_speakers
+994,994,can i increase my organization,show_speakers
+995,995,what if i get eager,show_food_arrangements
+996,996,what if i get greedy,show_food_arrangements
+997,997,what if i get keen,show_food_arrangements
+998,998,what if i get ravenous,show_food_arrangements
+999,999,can i get some allowance for the conference,get_discounts
+1000,1000,can i get some concession for the conference,get_discounts
+1001,1001,can i get some decrease for the conference,get_discounts
+1002,1002,can i get some deduction for the conference,get_discounts
+1003,1003,can i get some discounts for the consultation,get_discounts
+1004,1004,can i get some discounts for the discussion,get_discounts
+1005,1005,can i get some discounts for the forum,get_discounts
+1006,1006,can i get some discounts for the interview,get_discounts
+1007,1007,what are some of the benefit where i can stay around,show_accomodation
+1008,1008,what are some of the choice where i can stay around,show_accomodation
+1009,1009,what are some of the opportunity where i can stay around,show_accomodation
+1010,1010,what are some of the preference where i can stay around,show_accomodation
+1011,1011,what are some of the options where i can stay about,show_accomodation
+1012,1012,what are some of the options where i can stay everywhere,show_accomodation
+1013,1013,what are some of the options where i can stay over,show_accomodation
+1014,1014,what are some apartment to stay,show_accomodation
+1015,1015,what are some area to stay,show_accomodation
+1016,1016,what are some berth to stay,show_accomodation
+1017,1017,what are some city to stay,show_accomodation
+1018,1018,can i get an allowance,is_refundable
+1019,1019,can i get an compensation,is_refundable
+1020,1020,can i get an discount,is_refundable
+1021,1021,can i get an kickback,is_refundable
+1022,1022,show some apartment to eat around,show_food_arrangements
+1023,1023,show some area to eat around,show_food_arrangements
+1024,1024,show some berth to eat around,show_food_arrangements
+1025,1025,show some city to eat around,show_food_arrangements
+1026,1026,show some places to eat about,show_food_arrangements
+1027,1027,show some places to eat everywhere,show_food_arrangements
+1028,1028,show some places to eat over,show_food_arrangements
+1029,1029,i am eager,show_food_arrangements
+1030,1030,i am greedy,show_food_arrangements
+1031,1031,i am keen,show_food_arrangements
+1032,1032,i am ravenous,show_food_arrangements
+1033,1033,best apartment to get food,show_food_arrangements
+1034,1034,best area to get food,show_food_arrangements
+1035,1035,best berth to get food,show_food_arrangements
+1036,1036,best city to get food,show_food_arrangements
+1037,1037,can i pay insignificant,get_discounts
+1038,1038,can i pay minor,get_discounts
+1039,1039,how am i alleged to pay for this,get_payment_method
+1040,1040,how am i apparent to pay for this,get_payment_method
+1041,1041,how am i presumed to pay for this,get_payment_method
+1042,1042,how am i purported to pay for this,get_payment_method
+1043,1043,area of the venue,get_location
+1044,1044,district of the venue,get_location
+1045,1045,locale of the venue,get_location
+1046,1046,neighborhood of the venue,get_location
+1047,1047,booking fee,get_event_fees
+1048,1048,certification fee,get_event_fees
+1049,1049,enrollment fee,get_event_fees
+1050,1050,filing fee,get_event_fees
+1051,1051,where is vellore absolutely,get_location
+1052,1052,where is vellore altogether,get_location
+1053,1053,where is vellore carefully,get_location
+1054,1054,where is vellore completely,get_location
+1055,1055,what is the total bulk i need to pay,get_event_fees
+1056,1056,what is the total chunk i need to pay,get_event_fees
+1057,1057,what is the total extent i need to pay,get_event_fees
+1058,1058,what is the total load i need to pay,get_event_fees
+1059,1059,how much bulk of the registration fees will be refunded,is_refundable
+1060,1060,how much chunk of the registration fees will be refunded,is_refundable
+1061,1061,how much extent of the registration fees will be refunded,is_refundable
+1062,1062,how much load of the registration fees will be refunded,is_refundable
+1063,1063,how much amount of the booking fees will be refunded,is_refundable
+1064,1064,how much amount of the certification fees will be refunded,is_refundable
+1065,1065,how much amount of the enrollment fees will be refunded,is_refundable
+1066,1066,how much amount of the filing fees will be refunded,is_refundable
+1067,1067,are there any allowance codes,get_discounts
+1068,1068,are there any concession codes,get_discounts
+1069,1069,are there any decrease codes,get_discounts
+1070,1070,are there any deduction codes,get_discounts
+1071,1071,any allowance coupons,get_discounts
+1072,1072,any concession coupons,get_discounts
+1073,1073,any decrease coupons,get_discounts
+1074,1074,any deduction coupons,get_discounts
+1075,1075,any discount advertisement,get_discounts
+1076,1076,any discount card,get_discounts
+1077,1077,any discount certificate,get_discounts
+1078,1078,any discount voucher,get_discounts
+1079,1079,what is the accolade for place,get_prizes
+1080,1080,what is the award for place,get_prizes
+1081,1081,what is the benefit for place,get_prizes
+1082,1082,what is the bonus for place,get_prizes
+1083,1083,will i be add accommodation,show_accomodation
+1084,1084,will i be administer accommodation,show_accomodation
+1085,1085,will i be afford accommodation,show_accomodation
+1086,1086,will i be arrange accommodation,show_accomodation
+1087,1087,will i be provided compromise,show_accomodation
+1088,1088,will i be provided reconciliation,show_accomodation
+1089,1089,can i get more minutiae of the event,speaker_details_extra
+1090,1090,what will be add for lunch,show_food_arrangements
+1091,1091,what will be administer for lunch,show_food_arrangements
+1092,1092,what will be afford for lunch,show_food_arrangements
+1093,1093,what will be arrange for lunch,show_food_arrangements
+1094,1094,how much for banquet,show_food_cost
+1095,1095,how much for feast,show_food_cost
+1096,1096,how much for supper,show_food_cost
+1097,1097,at what time will lunch be served,show_schedule
+1098,1098,at what time will morsel be served,show_schedule
+1099,1099,at what time will refreshment be served,show_schedule
+1100,1100,at what time will tea be served,show_schedule
+1101,1101,do i get compromise if i join itc,show_accomodation
+1102,1102,do i get reconciliation if i join itc,show_accomodation
+1103,1103,why is chant so chocolaty,Others
+1104,1104,why is inflection so chocolaty,Others
+1105,1105,why is lyric so chocolaty,Others
+1106,1106,why is music so chocolaty,Others
+1107,1107,who is the first body to walk on the moon,Others
+1108,1108,who is the first character to walk on the moon,Others
+1109,1109,who is the first customer to walk on the moon,Others
+1110,1110,who is the first guy to walk on the moon,Others
+1111,1111,how to come a fortnite pro,Others
+1112,1112,how to develop into a fortnite pro,Others
+1113,1113,how to grow into a fortnite pro,Others
+1114,1114,how to turn into a fortnite pro,Others
+1115,1115,who assassinate jfk,Others
+1116,1116,who drown jfk,Others
+1117,1117,who execute jfk,Others
+1118,1118,who get jfk,Others
+1119,1119,who is in allegation,greet
+1120,1120,who is in complaint,greet
+1121,1121,who is in indictment,greet
+1122,1122,whom can i association,show_contact_info
+1123,1123,whom can i connection,show_contact_info
+1124,1124,whom can i influence,show_contact_info
+1125,1125,whom can i meeting,show_contact_info
+1126,1126,what are you able of,about_chatbot
+1127,1127,what are you accomplished of,about_chatbot
+1128,1128,what are you adept of,about_chatbot
+1129,1129,what are you adequate of,about_chatbot
+1130,1130,what is your ambition,about_chatbot
+1131,1131,what is your aspiration,about_chatbot
+1132,1132,what is your desire,about_chatbot
+1133,1133,what is your determination,about_chatbot
+1134,1134,hello acquaintance,greet
+1135,1135,hello ally,greet
+1136,1136,hello associate,greet
+1137,1137,hello buddy,greet
+1138,1138,who was the president of the concerted states,Others
+1139,1139,who was the president of the consolidated states,Others
+1140,1140,who was the president of the cooperative states,Others
+1141,1141,who was the president of the homogeneous states,Others
+1142,1142,who was the president of the united case,Others
