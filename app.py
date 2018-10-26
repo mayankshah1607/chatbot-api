@@ -29,6 +29,27 @@ for index,row in data.iterrows():
 vocab.append('UNK')
 vocab.append('PAD')
 
+messages = {
+    'get_event_fees': 'The cost of this event is $100.',
+    'is_refundable': 'This event is not refundable.',
+    'get_registration_date': 'The registration begins from 12th June, 2019.',
+    'get_payment_method': 'You can pay by any card and event PayTm or Tez.',
+    'get_prizes': 'The winner of this event gets a cash prize of $100,000.',
+    'get_discounts': 'Sorry, there are no discounts yet!',
+    'greet': 'Hello there! Ask me anything about this event.',
+    'show_schedule': 'The event starts at 1300Hrs, followed by a break at 1500hrs. The final ceremony is at 1600hrs',
+    'get_event_date': 'This event is happening on 23rd July, 2019.',
+    'get_event_time': 'The event begins at around 1300Hrs',
+    'show_accomodation': 'We have booked hotels at GRT Hotels.',
+    'show_speakers': 'Some great speakers for this event are Bill Gates, Elon Musk and Jeff Bezos',
+    'speaker_details_extra': 'The speakers will be staying for a few hours after the event to click pictures!',
+    'show_food_arrangements': 'We have arranged for food from McDonalds',
+    'get_distance': 'From your current location, the venue is 12kms away.',
+    'get_location': 'The event is happening in Anna Auditorium, VIT Vellore',
+    'show_contact_info': 'You can contact Mr.Mayank Shah - 9937162937',
+    'about_chatbot': 'I am a smart Question answering chatbot made by Mayank Shah.'
+}
+
 n_words = len(vocab)
 actions = list(data['Action'].unique())
 n_actions = len(actions)
@@ -80,7 +101,7 @@ def predict():
     with graph.as_default():
 
         action,score = get_prediction(query)
-        return flask.jsonify({'Score': score,'Action': action})
+        return flask.jsonify({'Score': score,'Action': action, 'Message': messages[action]})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port = port, debug = True)
