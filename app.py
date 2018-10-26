@@ -11,7 +11,7 @@ import pandas as pd
 import nltk
 import json
 import flask
-
+from flask_cors import CORS, cross_origin
 
 port = int(os.environ['PORT'])
 data = pd.read_csv('./data/data.csv')
@@ -53,6 +53,9 @@ def get_index_matrix(sentence):
 
 
 app = Flask(__name__)
+
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 global model,graph
 model,graph = init()
