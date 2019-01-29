@@ -1,2 +1,2 @@
 # chatbot-api
-Chatbot API for HCI Project.
+Chatbot API for Evento
