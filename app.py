@@ -30,24 +30,24 @@ vocab.append('UNK')
 vocab.append('PAD')
 
 messages = {
-    'get_event_fees': 'The cost of this event is $100.',
-    'is_refundable': 'This event is not refundable.',
-    'get_registration_date': 'The registration begins from 12th June, 2019.',
-    'get_payment_method': 'You can pay by any card and event PayTm or Tez.',
-    'get_prizes': 'The winner of this event gets a cash prize of $100,000.',
+    'get_event_fees': 'The cost of the event has not yet been confirmed. Our developers have been informed regarding this.',
+    'is_refundable': 'Sorry, the event fee is non-refundable.',
+    'get_registration_date': 'The registrations will begin soon. Follow our facebook page to stay updated!',
+    'get_payment_method': 'We shall accept only cash.',
+    'get_prizes': 'Haha, that\'s a surprise! ;)',
     'get_discounts': 'Sorry, there are no discounts yet!',
-    'greet': 'Hello there! Ask me anything about this event.',
-    'show_schedule': 'The event starts at 1300Hrs, followed by a break at 1500hrs. The final ceremony is at 1600hrs',
-    'get_event_date': 'This event is happening on 23rd July, 2019.',
-    'get_event_time': 'The event begins at around 1300Hrs',
-    'show_accomodation': 'We have booked hotels at GRT Hotels.',
-    'show_speakers': 'Some great speakers for this event are Bill Gates, Elon Musk and Jeff Bezos',
-    'speaker_details_extra': 'The speakers will be staying for a few hours after the event to click pictures!',
-    'show_food_arrangements': 'We have arranged for food from McDonalds',
-    'get_distance': 'From your current location, the venue is 12kms away.',
-    'get_location': 'The event is happening in Anna Auditorium, VIT Vellore',
-    'show_contact_info': 'You can contact Mr.Mayank Shah - 9937162937',
-    'about_chatbot': 'I am a smart Question answering chatbot made by Mayank Shah.'
+    'greet': 'Hello there! Ask me anything about this event. Eg: When is the event? What are the registration fees?',
+    'show_schedule': 'The itinerary has not been finalized yet. We will get back to you soon!',
+    'get_event_date': 'This event is happening on 29th - 31st March.',
+    'get_event_time': 'Sorry, the exact timings have not been finalized yet!',
+    'show_accomodation': 'Sorry, we do not have information regarding accomodations.',
+    'show_speakers': 'That is a surprise for now ;). However, we can assure that our speakers will be from big idustries, working on cutting edge technology.',
+    'speaker_details_extra': 'That is a surprise for now ;). However, we can assure that our speakers will be from big idustries, working on cutting edge technology.',
+    'show_food_arrangements': 'Haha, you seem to be hungry. But, sorry, we have not yet finalized the food arrangements.',
+    'get_distance': 'Hmmm, check google maps?',
+    'get_location': 'The event is happening in VIT Vellore. Exact venue will be informed soon.',
+    'show_contact_info': 'You may contact Druvangh Wagh - 8369091192',
+    'about_chatbot': 'I am Lexie, a smart assistant that can answer all your queries regarding ITC 2019. What would you like to know?'
 }
 
 n_words = len(vocab)
