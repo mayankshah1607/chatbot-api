@@ -40,7 +40,7 @@ messages = {
     'show_schedule': 'The itinerary has not been finalized yet. We will get back to you soon!',
     'get_event_date': 'This event is happening on 29th - 31st March.',
     'get_event_time': 'Sorry, the exact timings have not been finalized yet!',
-    'show_accomodation': 'Sorry, we do not have information regarding accomodations.',
+    'show_accomodation': 'Sorry, we do not have information regarding accommodation.',
     'show_speakers': 'That is a surprise for now ;). However, we can assure that our speakers will be from big idustries, working on cutting edge technology.',
     'speaker_details_extra': 'That is a surprise for now ;). However, we can assure that our speakers will be from big idustries, working on cutting edge technology.',
     'show_food_arrangements': 'Haha, you seem to be hungry. But, sorry, we have not yet finalized the food arrangements.',
