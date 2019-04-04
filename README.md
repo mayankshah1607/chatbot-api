@@ -11,3 +11,6 @@ Chatbot API for made for Evento
 ## API End-points
 - ```POST /predict - body(query) ```
 
+## Contributors
+1. @rushivarun
+
